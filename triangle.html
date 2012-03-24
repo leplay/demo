@@ -4,6 +4,7 @@
   <title>Triangle</title>
   <meta charset="utf-8" />
   <style type="text/css">
+	* { margin: 0; padding: 0;}
     div {width:0;height:0;float:left; margin:20px;}
 	.clearfix { clear: both; font-size: 1px; }
   .a{
@@ -90,9 +91,27 @@
       overflow: hidden;
     }
 
+ a.github {
+	width: 200px;
+	line-height: 40px;
+	position: fixed;
+	font-family: Arial;
+	top: 0;
+	right: 20px;
+	display: block;
+	background: #666;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+ }
+ a.github:hover {
+	background: #333;
+ }
  </style>
 </head>
 <body>
+
+
   <div class="a"></div>
   
   <div class="clearfix">&nbsp;</div>
@@ -110,5 +129,7 @@
   <div class="i"></div>
   
   <div class="clearfix">&nbsp;</div>
+  <a href="https://github.com/leplay/demo/blob/master/triangle.html" class="github" target="_blank">View Source Code</a>
+  
 </body>
 </html>
